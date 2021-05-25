@@ -13,7 +13,7 @@
 
 ---
 
-This website is compeltely responsive on all screens. Made up of materialize css. All the photos are taken from unsplash and pixabay.
+This website is compeltely responsive on all screens. Made up of materialize css. All the photos are taken from unsplash and pixabay. Get the wireframe [here](wireframe.png)
 
 ### CREDITS
 
