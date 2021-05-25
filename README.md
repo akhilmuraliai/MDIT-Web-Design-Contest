@@ -6,9 +6,8 @@
 
 <img src="images/poster.png" width="300" height="300">
 <br>
-<br>
 
-## LIVE PREVIEW : [click here]()
+## LIVE PREVIEW : [click here](https://akhilmuraliai.github.io/mdit-web-design-contest/)
 
 ### OVERVIEW
 
