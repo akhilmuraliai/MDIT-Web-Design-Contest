@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+html {
+    background-color: antiquewhite;
+}
+
+header {
+    background: url(../images/cs-net.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 900px;
+}
+
+nav .brand-logo {
+    position: absolute;
+    color: black;
+    display: inline-block;
+    font-size: 2.1rem;
+    font-family: 'Reggae One', cursive;
+    font-weight: 500;
+    padding: 0;
+}
+
+nav .sidenav-trigger i {
+    height: 56px;
+    line-height: 56px;
+    color: red;
+}
+
+nav ul a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    display: block;
+    font-size: 24px;
+    height: 26px;
+    line-height: 36px;
+}
+
+.section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.carousel {
+    transform: translateY(-50px);
+}
+
+.carousel .carousel-item {
+    width:400px !important;
+}
+
+.carousel .carousel-item img {
+    height: 300px;    
+}
+
+.input-field .prefix {
+    position: absolute;
+    color: red;
+    width: 3rem;
+    font-size: 2rem;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+    top: .5rem;
+}
+
+/* Media Queries */
+@media screen and (max-width:670px) {
+    header {
+        min-height: 500px;
+    }
+}
